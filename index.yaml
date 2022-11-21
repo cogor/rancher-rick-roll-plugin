@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  rick-roll:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.25.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0 < 2.8.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-11-21T11:51:07.311411+03:00"
+    description: rick-roll plugin
+    digest: 150a5f3d0d6357800d2002d55c61e2ef0e0692bf5b6cf0dfbb97efbaf842f9d5
+    name: rick-roll
+    type: application
+    urls:
+    - assets/rick-roll/rick-roll-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-11-21T11:51:07.311055+03:00"

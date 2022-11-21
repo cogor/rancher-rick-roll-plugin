@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[48],{2897:function(n,e,t){"use strict";t.r(e);var o={layout:"plain",mounted:function(){var link=this.$store.getters.backToRancherLink;window.location.href=link}},r=t(1),component=Object(r.a)(o,(function(){var n=this,e=n.$createElement;return(n._self._c||e)("div",[n._v("Redirecting...")])}),[],!1,null,null,null);e.default=component.exports}}]);
+//# sourceMappingURL=a1f49f6ef45824673064.js.map
