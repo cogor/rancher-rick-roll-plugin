@@ -12,12 +12,12 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-11-21T11:51:07.311411+03:00"
+    created: "2022-11-21T13:25:07.32193+03:00"
     description: rick-roll plugin
-    digest: 150a5f3d0d6357800d2002d55c61e2ef0e0692bf5b6cf0dfbb97efbaf842f9d5
+    digest: 9f5e6e9ee88832765d4c9e161e18a6f242b65cb62c493c0f29b595048fc568b2
     name: rick-roll
     type: application
     urls:
     - assets/rick-roll/rick-roll-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-21T11:51:07.311055+03:00"
+generated: "2022-11-21T13:25:07.321549+03:00"

@@ -57,7 +57,7 @@ while getopts "hvr:o:pi:fgb:s:" opt; do
       ;;
     f)
       FORCE="true"
-      ;;      
+      ;;
     g)
       GITHUB_BUILD="true"
       ;;
@@ -156,7 +156,7 @@ CHART_TEMPLATE=${BASE_DIR}/tmp/ui-plugin-server
 # Clone the plugin server template into the temporary folder
 # --------------------------------------------------------------------------------
 pushd ${TMP} > /dev/null
-git clone -q https://github.com/nwmac/ui-plugin-server.git
+git clone -q git@github.com:cogor/ui-plugin-server.git
 popd > /dev/null
 
 # --------------------------------------------------------------------------------
@@ -186,7 +186,7 @@ for d in pkg/*/ ; do
     # Create the container image
     # --------------------------------------------------------------------------------
     mkdir -p ${TMP}/container
-    cp -R ${CHART_TEMPLATE}/* ${TMP}/container/    
+    cp -R ${CHART_TEMPLATE}/* ${TMP}/container/
 
     # Copy the plugin assets
     rm -rf ${TMP}/container/plugin
@@ -275,7 +275,7 @@ for d in pkg/*/ ; do
       rm *.yaml
       mv temp.cr cr.yaml
       ENDPOINT=https://raw.githubusercontent.com/${GITHUB_SOURCE}/${GITHUB_BRANCH}/extensions/${pkg}/${PKG_VERSION}
-      sed -i.bak -e 's@endpoint: .*@endpoint: '"${ENDPOINT}"'@g' cr.yaml       
+      sed -i.bak -e 's@endpoint: .*@endpoint: '"${ENDPOINT}"'@g' cr.yaml
       rm *.bak
       popd > /dev/null
     fi
@@ -287,7 +287,7 @@ for d in pkg/*/ ; do
     helm package ${CHART_FOLDER} -d ${ASSETS}/${pkg}
 
     # --------------------------------------------------------------------------------
-    # Update the helm index just for this chart 
+    # Update the helm index just for this chart
     # --------------------------------------------------------------------------------
     HELM_INDEX=${BASE_DIR}/index.yaml
 
