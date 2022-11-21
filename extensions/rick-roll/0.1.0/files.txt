@@ -1,0 +1,3 @@
+plugin/rick-roll-0.1.0.umd.min.js
+plugin/rick-roll-0.1.0.umd.min.js.map
+plugin/package.json
