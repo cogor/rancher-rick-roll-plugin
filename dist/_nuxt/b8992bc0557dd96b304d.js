@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[28],{2888:function(e,r,t){"use strict";t.r(r);var n={name:"APIKeyCreate",layout:"plain",components:{ResourceDetail:t(2387).a}},o=t(1),component=Object(o.a)(n,(function(){var e=this.$createElement;return(this._self._c||e)("ResourceDetail",{attrs:{"store-override":"rancher","resource-override":"token","parent-route-override":"account"}})}),[],!1,null,null,null);r.default=component.exports}}]);
-//# sourceMappingURL=b8992bc0557dd96b304d.js.map

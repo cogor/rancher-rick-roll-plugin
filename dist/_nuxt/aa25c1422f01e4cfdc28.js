@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[72],{2935:function(e,n,t){"use strict";t.r(n);t(4),t(5),t(6),t(7);var l={name:"AlertmanagerConfig",components:{ResourceDetail:t(2387).a}},o=t(1),component=Object(o.a)(l,(function(){var e=this.$createElement;return(this._self._c||e)("ResourceDetail")}),[],!1,null,null,null);n.default=component.exports}}]);
-//# sourceMappingURL=aa25c1422f01e4cfdc28.js.map
